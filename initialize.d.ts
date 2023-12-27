@@ -4,7 +4,7 @@ export interface GoogleAnalyticsInitializeOptions {
     parameterOverrides?: {
         [paramName: string]: string;
     };
-    hitFilter?: (params: URLSearchParams) => void;
+    hitFilter?: (param: URLSearchParams) => void;
 }
 /**
  * @param {Object=} [options]
